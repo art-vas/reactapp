@@ -10,7 +10,7 @@ function App() {
 
   return <div className='wrapper'>
   <h1>React tutuorial</h1>
-  <TodoList />
+  <TodoList todos={todos}/>
 </div>
   
 }
